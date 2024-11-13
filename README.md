@@ -1,4 +1,4 @@
-# CAT (Computer Action Tester)
+# CAT (Computer Automated Tasks)
 
 CAT is a system designed to automate computer interactions using advanced AI vision and natural language processing. The system operates in two parts: a GPU-powered server component (OmniParser) for AI processing, and a local component (LocalExecutor) for GUI automation.
 
