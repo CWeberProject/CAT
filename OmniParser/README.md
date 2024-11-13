@@ -11,6 +11,8 @@ This repository contains the OmniParser module for automated computer interactio
 
 ## Installation Steps
 
+After connecting via SSH to your remote machine, you can follow these installation steps:
+
 ### 1. Clone Specific Folder
 
 ```bash
@@ -30,14 +32,7 @@ echo "OmniParser" >> .git/info/sparse-checkout
 git pull origin main
 ```
 
-### 2. Install Model
-
-```bash
-# Run the download script to get required model weights
-bash download.sh
-```
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 # Navigate to OmniParser directory
@@ -52,6 +47,13 @@ pip install torch=='2.4.1+cu121' torchvision=='0.19.1+cu121' torchaudio=='2.4.1+
 # Install additional dependencies
 pip install flash_attn
 pip install anthropic
+```
+
+### 3. Install Model
+
+```bash
+# Run the download script to get required model weights
+bash download.sh
 ```
 
 ### 4. Configuration
