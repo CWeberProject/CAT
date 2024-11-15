@@ -29,7 +29,7 @@ git config core.sparseCheckout true
 echo "OmniParser" >> .git/info/sparse-checkout
 
 # Pull the content
-git pull origin main
+git pull origin master
 ```
 
 ### 2. Install Dependencies
